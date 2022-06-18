@@ -1,0 +1,14 @@
+table {
+    margin: 80px auto;
+    background: rgb(153, 153, 153);
+    border: 25px solid rgb(12, 128, 47);
+}
+
+td {
+    width: 70px;
+    height: 70px;
+}
+  
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+    background: white;
+}
